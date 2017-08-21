@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.cqq.test</groupId>
-  <artifactId>TestHtrift</artifactId>
+  <artifactId>TestThrift</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
@@ -48,6 +48,47 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+		<dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.7</version>
+        </dependency>
+		<dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>transport</artifactId>
+            <version>5.5.1</version>
+        </dependency>
+
+	  <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+	  <dependency>
+		  <groupId>org.jsoup</groupId>
+		  <artifactId>jsoup</artifactId>
+		  <version>1.8.3</version>
+	  </dependency>
+
+	  <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+	  <dependency>
+		  <groupId>org.apache.httpcomponents</groupId>
+		  <artifactId>httpclient</artifactId>
+		  <version>4.5.2</version>
+	  </dependency>
+	  <!-- quartz -->
+	  <dependency>
+		  <groupId>commons-collections</groupId>
+		  <artifactId>commons-collections</artifactId>
+		  <version>3.2.1</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>javax.transaction</groupId>
+		  <artifactId>jta</artifactId>
+		  <version>1.1</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>opensymphony</groupId>
+		  <artifactId>quartz-all</artifactId>
+		  <version>1.6.0</version>
+	  </dependency>
+
+  </dependencies>
   <build/>
 </project>
